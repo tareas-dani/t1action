@@ -1,0 +1,14 @@
+name: "terea 1"
+description: "Un GitHub actions que imprima el nombre tantas veces como edad tenga la persona"
+
+inputs:
+  nombre:
+    description: "El nombre estabelcido en la variable de acuerdo al entorno"
+    required: true
+  edad:
+    description: "Edad estabelcido en la variable de acuerdo al entorno"
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"

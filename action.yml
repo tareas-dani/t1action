@@ -9,6 +9,11 @@ inputs:
     description: "Edad estabelcido en la variable de acuerdo al entorno"
     required: true
 
+outputs: 
+  multiplicacion:
+    description: "multiplicacion"
+
 runs:
   using: "node20"
   main: "dist/index.js"
+

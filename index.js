@@ -14,6 +14,10 @@ try {
     for (let i = 0; i < edad; i++) {
         console.log(`${nombre}`);
     }
+
+    // salida 
+    core.setOutput('multiplicacion', edad * 100)
+    
 } catch (error) {
     core.setFailed(`Error: ${error.message}`);
 }

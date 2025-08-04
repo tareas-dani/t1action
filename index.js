@@ -13,10 +13,11 @@ try {
     // Imprimir el nombre tantas veces como la edad
     for (let i = 0; i < edad; i++) {
         console.log(`${nombre}`);
+        core.setOutput('multiplicacion', edad * 100);
     }
 
     // salida 
-    core.setOutput('multiplicacion', edad * 100)
+    
     
 } catch (error) {
     core.setFailed(`Error: ${error.message}`);

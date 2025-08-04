@@ -11,7 +11,7 @@ inputs:
 
 outputs: 
   multiplicacion:
-    description: "multiplicacion"
+    description: "Multiplicacion"
 
 runs:
   using: "node20"
